@@ -1,6 +1,6 @@
 # ml-supervised-classification-20newsgroups
 
-```
+```bash
 export CONDA_ENV=ml-supervised-classification-20newsgroups
 
 # Create and activate a new conda environment
