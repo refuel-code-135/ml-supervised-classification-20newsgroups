@@ -1,12 +1,15 @@
-# supervised-classification-20-newsgroups
+# ml-supervised-classification-20newsgroups
 
 ```
-## Set Up Analysis environment
-conda create -n 20-newsgroups python=3.10
-conda activate 20-newsgroups
+export CONDA_ENV=ml-supervised-classification-20newsgroups
 
-pip install jupyterlab pandas numpy lightgbm matplotlib seaborn scikit-learn shap pyarrow optuna xgboost
+# Create and activate a new conda environment
+conda create -n $CONDA_ENV python=3.10
+conda activate $CONDA_ENV
 
+# Install required Python packages
+pip install -r requirements.txt
 
+# Start notetebook
 jupyter lab
 ```
