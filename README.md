@@ -3,10 +3,11 @@
 # Project Overview
 ### Classifying Email Texts into Topics Using ML Models
 
-This Project builds a text classification model.  
+This project builds a text classification model.  
 The model predicts the category of a text based on the email body.  
 Since we have correct labels, this is a supervised learning task.  
-In this notebook, I use the fetch_20newsgroups function to load sample data, which is part of sklearn.datasets.
+In this notebook, I use the fetch_20newsgroups function to load sample data, which is part of sklearn.datasets.  
+The notebook compares several models (Naive Bayes, Logistic Regression, Random Forest, LightGBM) using TF-IDF vectorization.
 
 
 ## Notebook
@@ -23,6 +24,6 @@ conda activate $CONDA_ENV
 # Install required Python packages
 pip install -r requirements.txt
 
-# Start notetebook
+# Start notebook
 jupyter lab
 ```
